@@ -1,0 +1,6 @@
+---
+title: "Where is Tohubohu?"
+---
+
+When AIS is running AND we are within eyeshot of the boat (without pirates...argh!), you can see where we are on the map below.  If you don't see us, we are either working on the boat (on the hard), AIS is off, boat is sold, or we fell off the flat earth (just kidding).  If you are really curious, you can check out our [AIS transponder](https://www.marinetraffic.com/en/ais/details/ships/shipid:6732368/mmsi:368188730/imo:0/vessel:TOHUBOHU) or on VesselFinder.com.
+

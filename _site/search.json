@@ -5,5 +5,33 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "technical.html",
+    "href": "technical.html",
+    "title": "Technical Specifications",
+    "section": "",
+    "text": "Here be the technical specifications for the s/v Tohubohu. Argh!\n\nBoat Layout\n      \n\n\nBoat Specifications\n\n\n\n\n\n\n\nBeneteau 473 Specifications\n\n\n\n\n\n\n\n\nBoat Name\nTohubohu\n\n\nBoat Type\nBeneteau 473\n\n\nHull Type\nFin w/bulb & spade rudder\n\n\nRigging Type\nMasthead Sloop\n\n\nLOA\n46.92 ft / 14.30 m\n\n\nLWL\n43.83 ft / 13.36 m\n\n\nS.A. (reported)\n914.00 ft² / 84.91 m²\n\n\nBeam\n14.16 ft / 4.32 m\n\n\nDisplacement\n24,277.00 lb / 11,012 kg\n\n\nBallast\n8,157.00 lb / 3,700 kg\n\n\nMax Draft\n5.58 ft / 1.70 m\n\n\nConstruction\nFG\n\n\nBallast Type\nIron\n\n\nFirst Built\n2000\n\n\nLast Built\n2005\n\n\nBuilder\nBeneteau\n\n\nDesigner\nGroupe Finot"
+  },
+  {
+    "objectID": "whereabouts.html",
+    "href": "whereabouts.html",
+    "title": "Where is Tohubohu?",
+    "section": "",
+    "text": "When AIS is running AND we are within eyeshot of the boat (without pirates…argh!), you can see where we are on the map below. If you don’t see us, we are either working on the boat (on the hard), AIS is off, boat is sold, or we fell off the flat earth (just kidding). If you are really curious, you can check out our AIS transponder or on VesselFinder.com."
+  },
+  {
+    "objectID": "plans.html",
+    "href": "plans.html",
+    "title": "Boat History (with Us)",
+    "section": "",
+    "text": "graph TD\n    X{Get Boat?\\n March 2020} --&gt;|Simone: YES| A[Search for A Boat]\n    \n    A --&gt;|COVID| B[Boat Shopping]\n    B --&gt; C[Find Boat]\n    C --&gt; D[Day Sailing]\n    D --&gt; E[Small Projects]\n    E --&gt; S[Shakedown Cruise]\n    S --&gt; G[Battery Failure]\n    G --&gt; L[LiPO4 Upgrade]\n    L --&gt; Z[Lightning Strike]\n    Z --&gt; Y[Insurance Claim]\n    Y --&gt; N[Norton Nightmare]\n    N --&gt; T[Tow to Zimmermans]\n    T --&gt; U[Insurance Claim 2]\n    U --&gt; V[Holding Pattern]\n\n    click A \"http://yachtworld.com\""
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "These are the projects in varying levels of completion."
   }
 ]
