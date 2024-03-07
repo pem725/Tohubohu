@@ -1,0 +1,75 @@
+---
+title: "Technical Specifications"
+author: "Patrick E. McKnight"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+Here be the technical specifications for the s/v Tohubohu. Argh!
+
+# Boat Layout
+
+
+![](B473LayoutMaster.jpg){usemap="#image_map" width="90%"}
+<map name="image_map">
+<area alt="PortAftLaz" title="PortAftLaz" href="https://photos.app.goo.gl/uqYNHb2zMYx6g8cv5" coords="7,204 22,75 90,36 151,27 154,201 155,203 155,203 155,203 " shape="polygon">
+<area alt="StarbAftLaz" title="StarbAftLaz" href="" coords="149,374 154,207 10,206 11,282 24,329 74,359 149,376 149,376 149,376 " shape="polygon">
+<area alt="PortQBerth" title="PortQBerth" href="" coords="156,199 157,26 387,9 390,83 429,118 426,170 316,168 307,196 " shape="polygon">
+<area alt="StarbQBerth" title="StarbQBerth" href="" coords="403,390 404,236 318,236 306,228 306,204 156,203 155,373 344,393 403,390 " shape="polygon">
+</map>
+
+
+# Boat Specifications
+
+```{r}
+#| echo: false
+#| results: "asis"
+#| warning: false
+#| message: false
+#| error: false
+
+# shamelessly taken by hand from sailboatdata.com
+B473specs <- as.data.frame(matrix(c("Boat Name", "Tohubohu",
+     "Boat Type", "Beneteau 473",
+     "Hull Type", "Fin w/bulb & spade rudder",
+     "Rigging Type", "Masthead Sloop",
+     "LOA", "46.92 ft / 14.30 m",
+     "LWL", "43.83 ft / 13.36 m",
+     "S.A. (reported)", "914.00 ft² / 84.91 m²",
+     "Beam", "14.16 ft / 4.32 m",
+     "Displacement", "24,277.00 lb / 11,012 kg",
+     "Ballast", "8,157.00 lb / 3,700 kg",
+     "Max Draft", "5.58 ft / 1.70 m",
+     "Construction", "FG",
+     "Ballast Type", "Iron",
+     "First Built", "2000",
+     "Last Built", "2005",
+     "Builder", "Beneteau",
+     "Designer", "Groupe Finot"), byrow = TRUE, ncol = 2))
+
+library(gt)
+gt(B473specs) %>%
+  tab_header(
+    title = "Beneteau 473 Specifications"
+  ) %>%
+  cols_label(
+    V1="",V2=""
+  ) %>%
+  cols_align(
+    align = "right",
+    columns = V1) %>%
+  cols_align(
+    align = "left",
+    columns = V2) %>%
+  opt_stylize(style = 6,
+              color="green")
+
+
+
+```
+
+
+![](B473LayoutMaster.svg){width="90%"}
+
+

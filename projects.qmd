@@ -1,0 +1,5 @@
+---
+title: "Projects"
+---
+
+These are the projects in varying levels of completion.

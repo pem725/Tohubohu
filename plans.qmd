@@ -1,0 +1,25 @@
+---
+title: "Boat History (with Us)"
+---
+
+```{mermaid}
+graph TD
+    X{Get Boat?\n March 2020} -->|Simone: YES| A[Search for A Boat]
+    
+    A -->|COVID| B[Boat Shopping]
+    B --> C[Find Boat]
+    C --> D[Day Sailing]
+    D --> E[Small Projects]
+    E --> S[Shakedown Cruise]
+    S --> G[Battery Failure]
+    G --> L[LiPO4 Upgrade]
+    L --> Z[Lightning Strike]
+    Z --> Y[Insurance Claim]
+    Y --> N[Norton Nightmare]
+    N --> T[Tow to Zimmermans]
+    T --> U[Insurance Claim 2]
+    U --> V[Holding Pattern]
+
+    click A "http://yachtworld.com"
+```
+
