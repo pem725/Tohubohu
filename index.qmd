@@ -1,0 +1,12 @@
+---
+title: "s/v Tohubohu"
+subtitle: "Beneteau 473 (2005)"
+format: html
+---
+
+![](tohubohuBWpic.jpg){fig-align="center"}
+
+
+
+
+![](B473LayoutMaster.jpg){fig-align="center"}
