@@ -6,7 +6,5 @@ format: html
 
 ![](tohubohuBWpic.jpg){fig-align="center"}
 
+![](https://images2.imgbox.com/72/e0/nebvmeG5_o.jpg){fig-align="center"}
 
-
-
-![](B473LayoutMaster.jpg){fig-align="center"}

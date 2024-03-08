@@ -11,6 +11,7 @@ website:
       - whereabouts.qmd
       - projects.qmd
       - technical.qmd
+      - preparations.qmd
       - about.qmd
 
 format:

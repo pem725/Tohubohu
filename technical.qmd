@@ -64,11 +64,7 @@ gt(B473specs) %>%
     columns = V2) %>%
   opt_stylize(style = 6,
               color="green")
-
-
-
 ```
-
 
 ![](B473LayoutMaster.svg){width="90%"}
 

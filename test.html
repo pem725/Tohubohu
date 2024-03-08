@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SVG Color Change Based on Mouse Position</title>
+  <style>
+    /* Add CSS styles to control hover effect */
+    #mySVG {
+      width: 200px; /* Adjust as needed */
+      height: auto; /* Adjust as needed */
+    }
+    #mySVG path {
+      transition: fill 0.3s; /* Smooth transition for color change */
+    }
+  </style>
+</head>
+<body>
+  <svg id="mySVG" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path id="triangle" d="M 10,10 L 90,10 L 50,90 Z"></path>
+  </svg>
+
+  <script>
+    // Get the SVG element and the triangle path
+    var svg = document.getElementById('mySVG');
+    var triangle = document.getElementById('triangle');
+
+    // Add mousemove event listener to the SVG
+    svg.addEventListener('mousemove', function(event) {
+      // Get the coordinates of the mouse pointer relative to the SVG
+      var mouseX = event.clientX - svg.getBoundingClientRect().left;
+      var mouseY = event.clientY - svg.getBoundingClientRect().top;
+
+      // Determine if the mouse pointer is above or below the midpoint of the SVG
+      var isAboveMidpoint = mouseY < (svg.getBoundingClientRect().height / 2);
+
+      // Change the color of the triangle based on mouse position
+      if (isAboveMidpoint) {
+        triangle.style.fill = 'green'; // Make the triangle green if mouse is above midpoint
+      } else {
+        triangle.style.fill = 'red'; // Make the triangle red if mouse is below midpoint
+      }
+    });
+  </script>
+</body>
+</html>
+
