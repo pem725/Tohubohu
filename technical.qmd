@@ -69,3 +69,4 @@ gt(B473specs) %>%
 ![](B473LayoutMaster.svg){width="90%"}
 
 
+![Here are the SailboatData.com specs.]("https://sailboatdata.com/sailboat/beneteau-473/")

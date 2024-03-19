@@ -3,22 +3,45 @@ title: "Boat History (with Us)"
 ---
 
 ```{mermaid}
-graph TD
-    X{Get Boat?\n March 2020} -->|Simone: YES| A[Search for A Boat]
+flowchart TB
+    X{Get Boat?\n March 2020} -->|Simone: YES| FIND
     
-    A -->|COVID| B[Boat Shopping]
-    B --> C[Find Boat]
-    C --> D[Day Sailing]
-    D --> E[Small Projects]
-    E --> S[Shakedown Cruise]
-    S --> G[Battery Failure]
-    G --> L[LiPO4 Upgrade]
-    L --> Z[Lightning Strike]
-    Z --> Y[Insurance Claim]
-    Y --> N[Norton Nightmare]
-    N --> T[Tow to Zimmermans]
-    T --> U[Insurance Claim 2]
-    U --> V[Holding Pattern]
+    subgraph FIND[COVID]
+      direction LR
+      B[Boat Shopping] --> F1[Perseverate on Jeanneau]
+      F1 --> C[Found Boat:\nBeneteau 473]
+    end
+    
+FIND --> NB
+
+    subgraph NB[New Boat: Tohubohu]
+      direction LR
+      D[Day Sailing]
+      D --> E[Small Projects]
+      E --> S[Shakedown Cruise]
+    end
+
+NB --> BPI
+
+    subgraph BPI[Boat Problems Begin]
+      direction LR
+      G[Battery Failure]
+      G --> L[LiPO4 Upgrade]
+      L --- Z[Lightning Strike]
+      Z --> Y[Insurance Claim: GEICO]
+      Y --> N[Norton Nightmare]
+      N --> T[Tow to Zimmermans]
+      T --> SU[Zimmerman Nightmare]
+      SU --> U[Insurance Claim 2: GEICO]
+      U --> V[Holding Pattern]
+    end
+
+BPI --> PN
+
+    subgraph PN[Post Nightmare]
+      direction LR
+      W[New Boat?] -->|Simone & Patrick: NO| F[Dodger?]
+    end
 
     click A "http://yachtworld.com"
 ```

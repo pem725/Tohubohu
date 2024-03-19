@@ -66,12 +66,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
 <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
 <link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
-<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -111,9 +111,9 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./technical.html"> 
 <span class="menu-text">Technical Specifications</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="./preparations.qmd"> 
-<span class="menu-text"></span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./preparations.html"> 
+<span class="menu-text">Preparations</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -160,22 +160,45 @@ ul.task-list li input[type="checkbox"] {
 <div>
 <p></p><figure class="figure"><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph TD
-    X{Get Boat?\n March 2020} --&gt;|Simone: YES| A[Search for A Boat]
+<pre class="mermaid mermaid-js">flowchart TB
+    X{Get Boat?\n March 2020} --&gt;|Simone: YES| FIND
     
-    A --&gt;|COVID| B[Boat Shopping]
-    B --&gt; C[Find Boat]
-    C --&gt; D[Day Sailing]
-    D --&gt; E[Small Projects]
-    E --&gt; S[Shakedown Cruise]
-    S --&gt; G[Battery Failure]
-    G --&gt; L[LiPO4 Upgrade]
-    L --&gt; Z[Lightning Strike]
-    Z --&gt; Y[Insurance Claim]
-    Y --&gt; N[Norton Nightmare]
-    N --&gt; T[Tow to Zimmermans]
-    T --&gt; U[Insurance Claim 2]
-    U --&gt; V[Holding Pattern]
+    subgraph FIND[COVID]
+      direction LR
+      B[Boat Shopping] --&gt; F1[Perseverate on Jeanneau]
+      F1 --&gt; C[Found Boat:\nBeneteau 473]
+    end
+    
+FIND --&gt; NB
+
+    subgraph NB[New Boat: Tohubohu]
+      direction LR
+      D[Day Sailing]
+      D --&gt; E[Small Projects]
+      E --&gt; S[Shakedown Cruise]
+    end
+
+NB --&gt; BPI
+
+    subgraph BPI[Boat Problems Begin]
+      direction LR
+      G[Battery Failure]
+      G --&gt; L[LiPO4 Upgrade]
+      L --- Z[Lightning Strike]
+      Z --&gt; Y[Insurance Claim: GEICO]
+      Y --&gt; N[Norton Nightmare]
+      N --&gt; T[Tow to Zimmermans]
+      T --&gt; SU[Zimmerman Nightmare]
+      SU --&gt; U[Insurance Claim 2: GEICO]
+      U --&gt; V[Holding Pattern]
+    end
+
+BPI --&gt; PN
+
+    subgraph PN[Post Nightmare]
+      direction LR
+      W[New Boat?] --&gt;|Simone &amp; Patrick: NO| F[Dodger?]
+    end
 
     click A "http://yachtworld.com"
 </pre>
