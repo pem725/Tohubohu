@@ -3,3 +3,7 @@ title: "Projects"
 ---
 
 These are the projects in varying levels of completion.
+
+## Active Projects
+
+1. [Water Tank Gauges](watertank.md)
