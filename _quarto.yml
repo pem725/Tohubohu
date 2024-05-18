@@ -16,7 +16,7 @@ website:
 format:
   html:
     toc: true
-    theme: sandstone
+    theme: spacelab
     mermaid:
       theme: neutral
 

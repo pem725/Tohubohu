@@ -7,7 +7,7 @@ flowchart TB
     X{Get Boat?\n March 2020} -->|Simone: YES| FIND
     
     subgraph FIND[COVID]
-      direction LR
+      direction TB
       B[Boat Shopping] --> F1[Perseverate on Jeanneau]
       F1 --> C[Found Boat:\nBeneteau 473]
     end
@@ -15,7 +15,7 @@ flowchart TB
 FIND --> NB
 
     subgraph NB[New Boat: Tohubohu]
-      direction LR
+      direction TB
       D[Day Sailing]
       D --> E[Small Projects]
       E --> S[Shakedown Cruise]
@@ -24,7 +24,7 @@ FIND --> NB
 NB --> BPI
 
     subgraph BPI[Boat Problems Begin]
-      direction LR
+      direction TB
       G[Battery Failure]
       G --> L[LiPO4 Upgrade]
       L --- Z[Lightning Strike]
@@ -38,11 +38,11 @@ NB --> BPI
 
 BPI --> PN
 
-    subgraph PN[Post Nightmare]
-      direction LR
+    subgraph PN[Post Nightmare: TBD]
+      direction TB
       W[New Boat?] -->|Simone & Patrick: NO| F[Dodger?]
     end
 
-    click A "http://yachtworld.com"
+    click B "http://yachtworld.com" "Yachtworld"
 ```
 
