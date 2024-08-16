@@ -124,5 +124,19 @@
     "title": "Projects",
     "section": "Active Projects",
     "text": "Active Projects\n\nWater Tank Gauges\nLiPo4 Installation\nHolding Tank Gauges\nCommunications"
+  },
+  {
+    "objectID": "projects.html#completed-projects",
+    "href": "projects.html#completed-projects",
+    "title": "Projects",
+    "section": "Completed Projects",
+    "text": "Completed Projects"
+  },
+  {
+    "objectID": "projects.html#future-projects",
+    "href": "projects.html#future-projects",
+    "title": "Projects",
+    "section": "Future Projects",
+    "text": "Future Projects"
   }
 ]

@@ -6,7 +6,15 @@ These are the projects in varying levels of completion.
 
 ## Active Projects
 
-1. [Water Tank Gauges](watertank.md)
-2. [LiPo4 Installation](lipo4.md)
-3. [Holding Tank Gauges](holdingtank.md)
-4. [Communications](communications.md)
+1. [Water Tank Gauges](watertank.qmd)
+2. [LiPo4 Installation](lipo4.qmd)
+3. [Holding Tank Gauges](holdingtank.qmd)
+4. [Communications](communications.qmd)
+
+## Completed Projects
+
+
+
+
+## Future Projects
+
