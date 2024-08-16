@@ -6,7 +6,23 @@ These are the projects in varying levels of completion.
 
 ## Active Projects
 
-1. [Water Tank Gauges](watertank.md)
-2. [LiPo4 Installation](lipo4.md)
-3. [Holding Tank Gauges](holdingtank.md)
-4. [Communications](communications.md)
+1. [Water Tank Gauges](watertank.qmd)
+2. [LiPo4 Installation](lipo4.qmd)
+3. [Holding Tank Gauges](holdingtank.qmd)
+4. [Communications](communications.qmd)
+
+## Completed Projects
+
+
+
+
+## Future Projects
+
+1. Solar Panels
+2. Wind Generator
+3. Water Maker
+4. Refrigeration
+5. Induction stove
+6. Water Heater
+7. Air Conditioning (DCV)
+8. Water Generator (impeller driven behind keel)

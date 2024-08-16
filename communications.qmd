@@ -1,3 +1,13 @@
 ---
 title: "Communications"
 ---
+
+Since we plan to work on the boat while sailing the world, we needed to get some communications in order.  We have a few options for communications:
+
+## Satellite Phone
+
+We have a satellite phone that we can use to make phone calls and send text messages.  We can also use it to send/receive email and text messages.  Too expensive and limited range (Southern Hemisphere)
+
+## Garmin InReach
+
+## 
