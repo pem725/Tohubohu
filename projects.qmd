@@ -18,11 +18,3 @@ These are the projects in varying levels of completion.
 
 ## Future Projects
 
-1. Solar Panels
-2. Wind Generator
-3. Water Maker
-4. Refrigeration
-5. Induction stove
-6. Water Heater
-7. Air Conditioning (DCV)
-8. Water Generator (impeller driven behind keel)
