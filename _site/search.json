@@ -138,5 +138,40 @@
     "title": "Projects",
     "section": "Future Projects",
     "text": "Future Projects"
+  },
+  {
+    "objectID": "communications.html",
+    "href": "communications.html",
+    "title": "Communications",
+    "section": "",
+    "text": "Since we plan to work on the boat while sailing the world, we needed to get some communications in order. We have a few options for communications:"
+  },
+  {
+    "objectID": "communications.html#satellite-phone",
+    "href": "communications.html#satellite-phone",
+    "title": "Communications",
+    "section": "Satellite Phone",
+    "text": "Satellite Phone\nWe have a satellite phone that we can use to make phone calls and send text messages. We can also use it to send/receive email and text messages. Too expensive and limited range (Southern Hemisphere)"
+  },
+  {
+    "objectID": "communications.html#garmin-inreach",
+    "href": "communications.html#garmin-inreach",
+    "title": "Communications",
+    "section": "Garmin InReach",
+    "text": "Garmin InReach"
+  },
+  {
+    "objectID": "holdingtank.html",
+    "href": "holdingtank.html",
+    "title": "Holding Tank Gauges",
+    "section": "",
+    "text": "We had no idea how much waste water existed in each holding tank. Now, we now or at least we will when she get floating again. Here is what I learned and what we chose for the current solution:"
+  },
+  {
+    "objectID": "lipo4.html",
+    "href": "lipo4.html",
+    "title": "LiPo4 Installation",
+    "section": "",
+    "text": "A complete refit from AGM to LiPo4 batteries. This is a big project that was mostly done when we were hit by lightning. All the new pieces survived the hit. The AGM stuff was toast. More on that later."
   }
 ]
